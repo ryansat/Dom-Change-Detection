@@ -6,16 +6,26 @@
         <div v-html="renderedEquation"></div>
         <div class="equation-guide">
             <h3>Equation Input Guide</h3>
-            <p>Here are some examples of how to input equations:</p>
+            <p>Here are some basic examples of LaTeX syntax:</p>
             <ul>
                 <li>
                     <code>c = \pm\sqrt{a^2 + b^2}</code> - Pythagorean theorem
                 </li>
                 <li><code>E = mc^2</code> - Mass-energy equivalence</li>
                 <li><code>\frac{n!}{k!(n-k)!}</code> - Binomial coefficient</li>
-                <li>...and many more based on LaTeX syntax.</li>
             </ul>
-            <p>Use LaTeX syntax for equations.</p>
+            <p>
+                For a full LaTeX syntax guide, visit
+                <a href="https://katex.org/docs/supported.html" target="_blank"
+                    >KaTeX Supported Functions</a
+                >
+                or
+                <a
+                    href="https://en.wikibooks.org/wiki/LaTeX/Mathematics"
+                    target="_blank"
+                    >LaTeX Mathematics on Wikibooks</a
+                >.
+            </p>
         </div>
     </div>
 </template>
@@ -68,5 +78,14 @@ function addSampleEquation() {
     background-color: #f5f5f5;
     padding: 2px 4px;
     border-radius: 4px;
+}
+
+.equation-guide a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.equation-guide a:hover {
+    text-decoration: underline;
 }
 </style>
