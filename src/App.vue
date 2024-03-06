@@ -1,20 +1,13 @@
 <template>
-  <div id="app">
-    <DomDetection/>
-  </div>
+    <div id="app">
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
-import DomDetection from './components/DomDetection.vue'
-
 export default {
-  name: 'App',
-  components: {
-    DomDetection
-  }
-}
+    name: "App",
+};
 </script>
 
-<style>
-/* Add your styles here */
-</style>
+<style></style>
