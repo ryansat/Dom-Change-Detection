@@ -18,6 +18,16 @@
                 <li>
                     <router-link to="/dynamic-form">Dynamic Form</router-link>
                 </li>
+                <li>
+                    <router-link to="/multi-lang-form"
+                        >Multi Lang Example</router-link
+                    >
+                </li>
+                <li>
+                    <router-link to="/meet-integration"
+                        >Meet Integration</router-link
+                    >
+                </li>
             </ul>
         </nav>
     </div>

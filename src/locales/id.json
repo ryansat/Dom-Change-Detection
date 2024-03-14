@@ -1,0 +1,9 @@
+{
+  "form": {
+    "title": "Pengiriman Formulir",
+    "name": "Nama",
+    "submit": "Kirim",
+    "submitted": "Terkirim:",
+    "selectLanguage": "Pilih Bahasa"
+  }
+}

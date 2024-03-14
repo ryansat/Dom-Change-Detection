@@ -1,0 +1,9 @@
+{
+  "form": {
+    "title": "Form Submission",
+    "name": "Name",
+    "submit": "Submit",
+    "submitted": "Submitted:",
+    "selectLanguage": "Select Language"
+  }
+}

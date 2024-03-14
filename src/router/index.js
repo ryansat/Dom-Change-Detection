@@ -1,9 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Dashboard from "../components/Dashboard.vue";
+import MultiLanguageForm from "../components/MultiLanguageForm.vue";
 import DomDetection from "../components/DomDetection.vue";
 import MathQuestion from "../components/MathQuestion.vue";
 import AdminFormConfig from "../components/AdminFormConfig.vue"; // Import the AdminFormConfig component
 import DynamicForm from "../components/DynamicForm.vue"; // Import the DynamicForm component
+import GoogleMeetIntegration from "../components/GoogleMeetIntegration.vue";
 
 // Create router instance with 'createRouter'
 const router = createRouter({
@@ -13,6 +15,11 @@ const router = createRouter({
       path: "/",
       name: "Dashboard",
       component: Dashboard,
+    },
+    {
+      path: "/meet-integration",
+      name: "GoogleMeetIntegration",
+      component: GoogleMeetIntegration,
     },
     {
       path: "/dom-detection",
@@ -33,6 +40,11 @@ const router = createRouter({
       path: "/dynamic-form", // Define a path for the dynamic form page
       name: "DynamicForm",
       component: DynamicForm,
+    },
+    {
+      path: "/multi-lang-form", // Define a path for the dynamic form page
+      name: "MultiLanguageForm",
+      component: MultiLanguageForm,
     },
   ],
 });
